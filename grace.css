@@ -28,6 +28,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    width: 100%;
 }
 nav a{
     color: white;
@@ -222,6 +223,7 @@ h2{
     background: black;
     gap: 30px;
     min-height: 25vh;
+    width: 100%;
     
 }
 .feature{
@@ -260,16 +262,20 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 8%;
+    padding: 20px 15px;
     background: burlywood;
-    min-height: 100vh;
+    height: auto;
 }
 .right{
     width: 45%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .right img{
     width: 100%;
     max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
