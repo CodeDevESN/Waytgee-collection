@@ -223,7 +223,7 @@ h2{
     background: black;
     gap: 30px;
     min-height: 25vh;
-    width: 100%;
+    width: auto;
     
 }
 .feature{
@@ -267,9 +267,8 @@ h2{
     height: auto;
 }
 .right{
-    width: 45%;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
     position: relative;
 }
 .right img{
