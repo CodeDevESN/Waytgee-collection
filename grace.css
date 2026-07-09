@@ -235,7 +235,7 @@ h2{
     gap: 20px;
 }
 .feature i{
-    font-size: 40px;
+    font-size: 20%;
     color: #d4b184;
 }
 .feature h3{
@@ -245,7 +245,7 @@ h2{
     color:#bbb;
 }
 .left{
-    width: 50%;
+    width: 90%;
 }
 .left span{
     color: white;
@@ -290,10 +290,6 @@ h2{
     margin-top: 20px;
     width: 100%;
     justify-content: center;
-}
-.right img{
-    width: 90%;
-    margin: 0 auto;
 }
 .hero{
     flex-direction: column;
