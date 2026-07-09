@@ -282,9 +282,6 @@ h2{
     object-fit: cover;
 }
 @media (max-width:768px){
-    .features{
-        grid-template-columns: 1fr;
-    }
 .right{
     margin-top: 20px;
     width: 100%;
