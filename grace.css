@@ -283,9 +283,12 @@ h2{
     object-fit: cover;
 }
 @media (max-width:768px){
+    .features{
+        grid-template-columns: 1fr;
+    }
 .right{
     margin-top: 20px;
-    width: 100px;
+    width: 100%;
     justify-content: center;
 }
 .right img{
@@ -294,5 +297,6 @@ h2{
 }
 .hero{
     flex-direction: column;
+    text-align: center;
 }
 }
