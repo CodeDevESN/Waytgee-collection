@@ -26,11 +26,13 @@ padding: 0%;
 }
 nav{
     background-color: black;
-    padding: 10px;
+    padding: clamp(10px, 2vw, 20px);
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
     width: 100%;
+    flex-wrap: wrap;
 }
 nav a{
     color: white;
@@ -110,11 +112,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px;
+    padding: 20px;
     background: linear-gradient(to right, #f3e9df, #ffffff);
-    width: 700px;
-    height: 50px;
-    margin-left: 40px;
+    width: 95%;
+    margin: 0 auto;
     
 }
 .hero-text{
@@ -221,9 +222,9 @@ h2{
 .features{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    padding: 20px;
+    padding: clamp(10px, 2vw, 20px);
     background: black;
-    gap: 30px;
+    gap: 2vw;
     min-height: 25vh;
     width: auto;
     
