@@ -60,7 +60,7 @@ const products = [
 ];
 let currencyCategory = 'all';
 let currentIndex = 0;
-const imgElement = document, getElementById('product-img');
+const imgElement = document.getElementById('product-img');
 const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 const filterBtns = document.querySelectorAll('.filter-btn');
@@ -124,5 +124,14 @@ if (lightbox) {
         if (e.target === lightbox) {
             lightbox.style.display = 'none';
         }
+    });
+}
+
+const HamburgrerBtn = document.querySelector('.fa-bars') || document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('nav ul') || document.querySelector('.nav-links');
+if (HamburgrerBtn && navLinks) {
+    HamburgrerBtn.style.cursor = 'pointer';
+    HamburgrerBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
     });
 }
