@@ -780,7 +780,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 4rem;
-    margin: 3rem;
+    margin: 5px;
 }
 
 .footer-col p {
